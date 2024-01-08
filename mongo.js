@@ -1,7 +1,7 @@
 
 
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://yadsarvesh15:sarvesh@cluster0.xal9y1c.mongodb.net/")
+mongoose.connect("mongodb+srv://yadsarvesh15:sarvesh@cluster0.xal9y1c.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("mongodb connected");
 })
